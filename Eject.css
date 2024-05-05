@@ -1,0 +1,30 @@
+/* Цвет выделения текста на сайте */
+::selection {
+    background: #899db348;
+    border-radius: 3px;
+}
+::-moz-selection {
+    background: #899db348;
+    border-radius: 3px;
+}
+::-webkit-selection {
+    background: #899db348;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+    width: 9px; /* ширина для вертикального скролла */
+    height: 9px; /* высота для горизонтального скролла */
+    background-color: #151b21;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(186, 186, 189);
+    height: 56px;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(157, 157, 160);
+}
