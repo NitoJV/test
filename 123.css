@@ -1,0 +1,13 @@
+html, element.style, body, a, p, h1, h2, h3, h4, h5, label, div, a:not([class*="icon"]), b, cite, time, li, la, td, link, address, article, footer, main, nav, section, code, input, pre, select, .mention-nice-name, .post-message {
+font-family: PT Mono;
+background: #212121;
+font-size: 16px;
+  // font-style: normal !important;             /* начертание шрифта Ч normal | italic | oblique | inherit */
+  // font-weight: normal !important;            /* насыщенность шрифта Ч bold | bolder | lighter | normal | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 */
+  -webkit-font-smoothing: none !important;   /* none Ч сглаживани€ нет; subpixel-antialiased Ч сильное сглаживание; antialiased Ч среднее сглаживание. */
+  text-shadow: 0px 0px 0px !important;       /* —войство добавл€ет тени к тексту */
+  -webkit-text-stroke-width: 0px !important; /* —войство определ€ет ширину обводки текста. */
+  /*
+  color:#C9D0D3!important;
+  */
+}
